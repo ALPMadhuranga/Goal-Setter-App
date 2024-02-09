@@ -27,8 +27,6 @@ export const setGoal = asyncHandler(async (req, res) => {
     res.status(200).json(goal)
 })
 
-
-
 //@desc Update goal
 //@route PUT /api/goals/:id
 //@access private
