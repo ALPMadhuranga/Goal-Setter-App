@@ -14,8 +14,7 @@ const port = process.env.PORT || 8000;
 const app = express();
 
 app.use(express.json());
-app.use(express.urlencoded({extended: true}));
-app.use(errorHandler);
+app.use(express.urlencoded({extended: false}));
 
 app.use('/api/goals', goalRoutes);
 app.use('/api/users', userRoutes);
@@ -28,5 +27,7 @@ if(process.env.NODE_ENV === 'production') {
 }else {
     app.get('/', (req, res) => res.send('Please set to production'));
 }
+
+app.use(errorHandler);
 
 app.listen(port, () => console.log(`Server started on port ${port}`));
