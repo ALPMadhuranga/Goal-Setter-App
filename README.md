@@ -31,9 +31,3 @@ npm run server
 I am not sure how long this will be up
 https://goal-achiever-app.onrender.com/
 
-![1](https://github.com/ALPMadhuranga/task_manager_app/assets/71040816/d0db3b98-823c-41fa-a4d5-4c41682b8d52)
-
-![2](https://github.com/ALPMadhuranga/task_manager_app/assets/71040816/17a4df36-cdd6-4c92-9bed-5e7576cc15f8)
-
-![3](https://github.com/ALPMadhuranga/task_manager_app/assets/71040816/ded91f94-0346-4ca5-9623-591c38f02d18)
-
